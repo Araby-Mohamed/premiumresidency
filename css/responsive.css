@@ -232,25 +232,24 @@
 
     .required-documents .requirement-box {
         padding: 24px;
-        height: auto;
+        height: 434px;
         overflow: hidden;
-        padding-bottom: 58.8%;
         margin-bottom: 20px;
     }
 
     .required-documents .box{
-        width: 89%;
+       
     }
     .required-documents .color-2{
-        padding-bottom: 100%;
+        
     }
 
     .required-documents .requirement-box .img-front{
         position: absolute;
         z-index: 9;
-        right: -22px;
+        right: -30px;
         top: auto;
-        bottom: -25%;
+        bottom: -29%;
     }
 
     .required-documents .requirement-box p.prag-2,
@@ -259,7 +258,7 @@
     }
 
     .required-documents .appling{
-        padding-top: 0;
+        padding-top: 50px;
     }
 
     .required-documents .appling h2{
@@ -326,6 +325,23 @@
     }
     
     .required-documents .baner-desktop{
+        display: none;
+    }
+
+    .required-documents .requirement-box .img-man{
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+        width: 50%;
+    }
+    .required-documents .requirement-box .img-woman{
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 30%;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots{
         display: none;
     }
 
@@ -485,5 +501,9 @@
 
 
     /* End Footer */
+
+    .owl-carousel.owl-drag .owl-item{
+     
+    }
    
 }
